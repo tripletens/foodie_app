@@ -1,5 +1,6 @@
 
 import '../Navbar/Navbar.css';
+import cart from '../../images/shopping-cart.svg';
 
 function Navbar() {
     return (
@@ -13,7 +14,9 @@ function Navbar() {
                 <li><a href='#'>Service</a></li>
                 <li>
                     <a href='#'>
-                        <span className='cart-circle'> </span>
+                        <span className='cart-circle'>
+                            <img src={cart} className='' alt="Cart picture"/>
+                        </span>
                     </a>
                 </li>
                 <li>

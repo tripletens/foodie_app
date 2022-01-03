@@ -49,9 +49,14 @@
 }
 
 .cart-circle{
-    height: 30px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
-    width: 30px;
     background-color: #ffffff;
-}
+    color: #DA5004;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
 
+}

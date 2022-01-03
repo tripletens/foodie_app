@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import man from './images/ring_background.png';
+import location from './images/map-pin.svg';
+import cart from './images/shopping-cart.svg';
 import './App.css';
 import Navbar from './const/Navbar/Navbar';
 
@@ -21,7 +23,7 @@ function App() {
             </p>
             <div className='location_div'>
               <span className='location-icon'>
-                <i data-feather="circle"></i>
+                <img src={location} className='' alt="location picture"/>
               </span>
               <input type="text" className='text_input' placeholder='Portharcourt, Nigeria'/>
               <button className='find_food_btn'>Find Food</button>
